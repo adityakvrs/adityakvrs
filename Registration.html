@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+<body> 
+<div>
+    
+    <div style="height:40;background-color: skyblue"><center><h3 style="color:white;padding-top: 8px">Register</h3></center></div>
+    <br>
+    <div style="margin-left:20px;margin-right: 20px">
+    
+        <form method="post" action="" autocomplete="off">
+    
+    
+                    <input class="int" type="text" name="username" placeholder="Username" required>
+                     <input class="int" type="email" name="email" placeholder="email@example.com" required>
+                     <input class="int" type="text" name="mobile_number" placeholder="Mobile" pattern="[7|8|9][0-9]{9}" title="10 digits" required>
+                     <input class="int" type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[.@#$^&*!]).{8,}" title="The password must contain minimum of 8 characters with atleast 
+                                            1 capital letter 
+                                            1 small letter 
+                                            1 digit 
+                                            1 special character." required>
+                    <input class="int" style="cursor: pointer;background-color:skyblue;border: 2px;border-radius: 5px;color: white" type="submit" value="Register">
+            
+         </form>
+    </div>
+
+  
+
+    <h4 style="color:gainsboro">OR</h4> 
+    </div>
+  
+ 
+                    <div  style="background-color:#3B5998;border: 2px;border-radius: 5px;margin-left: 20px;margin-right: 20px" > 
+                        <a href="#" class="long" ><center>
+                            <i  style="color: white;" class="fa fa-facebook fa-fw"></i></center>
+                        </a>    
+
+                    </div>
+      <br>
+                    <div style="background-color:#dd4b39;border: 2px;border-radius: 5px;margin-left:20px;margin-right: 20px">
+                        <a href="#" class="long"  ><center>
+                          <i style="color: white;" class="fa fa-google fa-fw"></i></center>
+                        </a>
+                    </div>
+      <br>
+      <br>
+                    <div  style="margin-left:20px;margin-right: 20px">   
+                        <button class="long"
+
+                        style="cursor: pointer;background-color:#FFD933;border: 2px;border-radius: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;< EPAM LOGIN ></button>
+
+                    </div>
+
+    
+  
+    
+    </div>
+    </body>
+</html>
+
+
+
+<!-- Styles -->
+<style>
+
+     
+
+h4 { 
+    display: flex; 
+    flex-direction: row; 
+} 
+
+h4:before, 
+h4:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid gainsboro; 
+    margin: auto; 
+}   
+
+.long{
+
+
+width: 100%;
+padding: 12px;
+
+
+margin: 5px 0;
+border-color: aliceblue;
+border-top-color: aliceblue;
+display: inline-block;
+font-size: 17px;
+line-height: 20px;
+
+}
+
+ 
+.int{
+width: 100%;
+padding: 12px;
+
+border: solid;
+margin: 5px 0;
+border-color: aliceblue;
+border-top-color: aliceblue;
+display: inline-block;
+font-size: 17px;
+line-height: 20px;
+
+
+
+}
+
+
+</style>
